@@ -1,21 +1,20 @@
 <!DOCTYPE html>
-
 <html lang="en">
     <head>
-        <meta charset="UTF-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Admin</title>
-        <link rel="stylesheet" href="css/login.css">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
-        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-        <script src="script/login.js" defer></script>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <link rel="stylesheet" href="../src/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <!-- <script src="script/adminlogin.js" defer></script> -->
     </head>
     <body>
         <div class="container">
             <div class="logo">
                 <a href="https://www.albayrakmakine.com.tr" class="logolink">
-                    <img src="img/logoalbayrak.png" alt="">
+                    <img src="./img/logoalbayrak.png" alt="">
                 </a>
             </div>
             <h1>Tramvay Yolcu Yoğunluğu Yönetim Sistemi</h1>
@@ -31,7 +30,9 @@
                     </div>
                     <div class="bar">
                         <button type="submit" class="login">Login</button>
-                        <button type="submit" class="login" id="logingoogle">Login with Google</button>
+                        <button type="submit" class="login"><i class='bx bxl-google'></i>Login with Google
+                            <div id="reactbtn"></div>
+                        </button>
                     </div>
                 </form>
             </div>
